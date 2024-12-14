@@ -1,0 +1,169 @@
+### BRIDGE DOMAIN ###
+---
+apiVersion: services.eda.nokia.com/v1alpha1
+kind: BridgeDomain
+metadata:
+  name: bridge-domain
+  namespace: eda
+  labels: {}
+  annotations: {}
+spec:
+  eviPool: evi-pool
+  l2proxyARPND:
+    proxyARP: false
+    proxyND: false
+    tableSize: 250
+    dynamicLearning:
+      enabled: false
+      ageTime: null
+      sendRefresh: null
+    ipDuplication:
+      enabled: false
+      monitoringWindow: 3
+      numMoves: 5
+      holdDownTime: 9
+  macAging: 300
+  macDuplicationDetection:
+    action: StopLearning
+    enabled: false
+    holdDownTime: 9
+    monitoringWindow: 3
+    numMoves: 5
+  tunnelIndexPool: tunnel-index-pool
+  type: EVPNVXLAN
+  vniPool: vni-pool
+  vni: null
+  evi: null
+  exportTarget: ''
+  importTarget: ''
+  macLimit: null
+
+
+
+### MULTIHOMED BRIDGE INTF ###
+---
+apiVersion: services.eda.nokia.com/v1alpha1
+kind: BridgeInterface
+metadata:
+  name: multihomed-lag-bridge-intf
+  namespace: eda
+  labels: {}
+  annotations: {}
+spec:
+  bridgeDomain: bridge-domain
+  vlanID: '100'
+  interface: lag-leaf1-2-e1212-local
+  macDuplicationDetectionAction: ''
+  l2MTU: null
+  splitHorizonGroup: ''
+  egress:
+    filters: []
+    qosPolicy: []
+  ingress:
+    filters: []
+    qosPolicy: []
+  uplink:
+    uplinkSelector: []
+    uplinkVLANID: pool
+    uplinkVLANPool: ''
+    ingress:
+      filters: []
+      qosPolicy: []
+    egress:
+      filters: []
+      qosPolicy: []
+
+
+
+### IRB INTERFACE ###
+---
+apiVersion: services.eda.nokia.com/v1alpha1
+kind: IRBInterface
+metadata:
+  name: irb-interface
+  namespace: eda
+  labels: {}
+  annotations: {}
+spec:
+  bridgeDomain: bridge-domain
+  router: router
+  ipMTU: 1500
+  learnUnsolicited: NONE
+  ipAddresses:
+    - ipv4Address:
+        ipPrefix: 192.168.100.1/29
+        primary: true
+      uuid: 30feb97c-d0b2-44e8-b092-80668b74f112
+  unnumbered: IPV6
+  arpTimeout: 14400
+  bfd:
+    enabled: false
+    detectionMultiplier: 3
+    minEchoReceiveInterval: 1000000
+    desiredMinTransmitInt: 1000000
+    requiredMinReceive: 1000000
+  evpnRouteAdvertisementType:
+    arpDynamic: true
+    arpStatic: true
+    ndDynamic: false
+    ndStatic: false
+  hostRoutePopulate:
+    dynamic: true
+    evpn: true
+    static: true
+  l3ProxyARPND:
+    proxyARP: false
+    proxyND: false
+  anycastGatewayMAC: ''
+  virtualIPDiscovery: []
+  ingress:
+    filters: []
+    qosPolicy: []
+  egress:
+    filters: []
+    qosPolicy: []
+
+
+
+### ROUTER ###
+---
+apiVersion: services.eda.nokia.com/v1alpha1
+kind: Router
+metadata:
+  name: router
+  namespace: eda
+  labels: {}
+  annotations: {}
+spec:
+  routerID: 1.1.1.1
+  type: EVPNVXLAN
+  vniPool: vni-pool
+  eviPool: evi-pool
+  tunnelIndexPool: tunnel-index-pool
+  bgp:
+    enabled: false
+    autonomousSystem: null
+    rapidWithdrawl: false
+    waitForFIBInstall: false
+    minWaitToAdvertise: null
+    ebgpPreference: 170
+    ibgpPreference: 170
+    keychain: ''
+    ipAliasNexthops: []
+    ipv4Unicast:
+      enabled: false
+      advertiseIPV6NextHops: false
+      receiveIPV6NextHops: false
+      multipath:
+        maxAllowedPaths: null
+        allowMultipleAS: false
+    ipv6Unicast:
+      enabled: false
+      multipath:
+        maxAllowedPaths: null
+        allowMultipleAS: false
+  vni: null
+  evi: null
+  exportTarget: ''
+  importTarget: ''
+  nodeSelector: []

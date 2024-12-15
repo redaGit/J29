@@ -184,8 +184,22 @@ Validating the Fabric configuration:
 
 Faster! Better!
 
-
+1. Open the [underlay_fabric.yaml](topology/underlay_fabric.yaml) file.
+2. Copy the contents of the file (`ctrl-a` followed by `ctrl-c`) or (`command-a` followed by `command-c`) on mac
+3. Click `Create` in the `Fabrics` window again.
+4. Instead of wasting time filling out everything manually, we will just paste the file into the `YAML` window
+    - Click into the `YAML` window, and do `ctrl-a/command-a` (depending on your OS) hit `backspace/delete`
+    - Now that we have a blank window, do `ctrl-v/command-v` (depending on your OS) to paste the file contents into the window.
+5. Notice how all of the fields in the form became populated?
+6. Now we can click `Add to Transaction` immediately
+7. In the `Transaction Basket`, click `Dry Run` again, followed by `Diffs` and notice that we have all the same configurations from before, but we did it in only a few seconds this time.
+8. Click `Commit` to push the configurations to the network.
 
 ## 🏆 Going Deeper
 
-We used 
+We used a very basic set of intents to create this fabric. Although it is fully viable, in most cases you will be configuring your allocation pools and fabrics to match your own network.
+
+Read through the fabric docs at [docs.eda.dev](https://docs.eda.dev/apps/fabric/) and create some of your own pools and labels and apply them to a more customized fabric configuration.
+
+[^ back to top](#fabric)
+---

@@ -76,7 +76,15 @@ Based on the image above:
 2. Click `Main`
 3. Click `Topologies`
 4. Click the `i` to open this information screen
-5. Click `leaf1' to be able to see all of the information about the node, take a moment to look at all of the available information about this node.
+5. Click `leaf1` to be able to see all of the information about the node, take a moment to look at all of the available information about this node.
+
+Next, look through the options on the left side of the screen to find `Nodes` in the `Targets` subsection.
+
+1. You will see a list of the three nodes in our topology [ spine, leaf1, leaf2 ]
+2. Click on the three vertical dots on the far right-hand side of one of the nodes.
+3. Click `Node Configuration` to see the full configuration of the node as it is currently deployed. You will be able to come back to look at this after other steps to be able to see how the configuration changes as you build out the fabric. Close this view when you are done.
+4. Now click `Configuration View` from the three vertical dots. This is where the various options were set for this node.
+5. Click `Edit` in the bottom right corner of the `Configuration View` and notice the yaml pane - you can make changes to the yaml or the gui in this screen and they will update eachother. Change `operatingSystem` to `sros` and notice that the other side also changes. Click cancel in the lower left corner or the X in the upper right when you are done here, and then click OK.
 
 ## 🏆 Going Deeper
 

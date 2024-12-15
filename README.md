@@ -78,3 +78,8 @@ Based on the image above:
 4. Click the `i` to open this information screen
 5. Click `leaf1' to be able to see all of the information about the node, take a moment to look at all of the available information about this node.
 
+## 🏆 Going Deeper
+
+Topologies can be built manually, but it is far more common to generate the topology files using one of the methods described in the [docs.eda.dev](https://docs.eda.dev/user-guide/topologies/#topology-file)
+
+To challenge yourself, draw your topology on a napkin and then use the tools to generate your topology in EDA to match your drawing.

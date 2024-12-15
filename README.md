@@ -10,7 +10,7 @@
 ### Overview
 
 ### [Topologies](https://github.com/drewelliott/nokia-eda-workshop?tab=readme-ov-file#topologies-1)
-### [Topologies](#topologies-1)
+### [Topologies](#topologies-2)
  - TopoNodes
  - TopoLinks
  - Topologies

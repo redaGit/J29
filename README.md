@@ -13,7 +13,7 @@
  - TopoNodes
  - TopoLinks
  - Topologies
- - Further Reading [docs.eda.dev](https://docs.eda.dev/user-guide/topologies/)
+ - Further Reading [docs.eda.dev](https://docs.eda.dev/user-guide/topologies/) and [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/topologies.html)
 
 ### Fabric
  - Building Blocks
@@ -58,7 +58,7 @@ The default topology in the playground (and the one we are using) is depicted in
 
 ![Playground Topology](images/topology_ss.jpg)
 
-In EDA, the topology is a tree made up of nodes and links. Each *tier* of the tree can contain multiple resources and relationships between *tiers* is drawn based on the links :tree:
+In EDA, the topology is a tree made up of nodes and links. Each *tier* of the tree can contain multiple resources and relationships between *tiers* is drawn based on the links :evergreentree:🌲🌳🍃
 
 The playground topology when depicted in this abstracted way looks like this:
 

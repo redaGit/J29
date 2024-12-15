@@ -86,6 +86,8 @@ Next, look through the options on the left side of the screen to find `Nodes` in
 4. Now click `Configuration View` from the three vertical dots. This is where the various options were set for this node.
 5. Click `Edit` in the bottom right corner of the `Configuration View` and notice the yaml pane - you can make changes to the yaml or the gui in this screen and they will update eachother. Change `operatingSystem` to `sros` and notice that the other side also changes. Click cancel in the lower left corner or the X in the upper right when you are done here, and then click OK.
 
+The `Links` and `Interfaces` sections are further down the left side in the `Topology` section. Spend some time to see what you can find in these.
+
 ## 🏆 Going Deeper
 
 Topologies can be built manually, but it is far more common to generate the topology files using one of the methods described in the [docs.eda.dev](https://docs.eda.dev/user-guide/topologies/#topology-file)

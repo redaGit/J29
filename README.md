@@ -14,12 +14,14 @@
  - TopoLinks
  - Topologies
  - Further Reading [docs.eda.dev](https://docs.eda.dev/user-guide/topologies/) and [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/topologies.html)
+> 🔑 Key Takeaway: The playground operates using the same mechanism that powers digital twin capabilities, enabling you to test and validate any changes before applying them to the physical network.
 
-### Fabric
+### [Fabric](#fabric-1)
  - Building Blocks
  - Manual Configuration
  - Template Deployment
  - Further Reading [docs.eda.dev](https://docs.eda.dev/apps/fabric/)
+> 🔑 Key Takeaway: The declarative, intent-based approach provided by EDA allows an engineer to validate and implement an entire fabric in less time than it takes an engineer to log into a single switch.
 
 ### Queries
  - EQL 
@@ -27,6 +29,7 @@
  - edactl
  - e9s
  - Further Reading [docs.eda.dev](https://docs.eda.dev/user-guide/queries/) and [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/queries.html)
+> 🔑 Key Takeaway: The EQL allows the entire state of the managed devices to be queried and parsed in real-time providing data for visualization and streaming to external apps. This allows the engineer a view into the managed network as as if it were a single resource.
 
 ### Day 1+
  - Digital Twin
@@ -96,3 +99,7 @@ To challenge yourself, draw your topology on a napkin and then use the tools to 
 
 [^ back to top](#topologies)
 ---
+
+# Fabric
+
+

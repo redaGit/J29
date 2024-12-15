@@ -29,7 +29,7 @@
  - edactl
  - e9s
  - Further Reading [docs.eda.dev](https://docs.eda.dev/user-guide/queries/) and [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/queries.html)
-> 🔑 Key Takeaway: The EQL allows the entire state of the managed devices to be queried and parsed in real-time providing data for visualization and streaming to external apps. This allows the engineer a view into the managed network as as if it were a single resource.
+> 🔑 Key Takeaway: The EQL enables real-time querying and parsing of the entire state of managed devices, supplying data for visualization and streaming to external applications. This gives engineers a unified view of the managed network, treating it as a single cohesive resource.
 
 ### Day 1+
  - Digital Twin
@@ -102,4 +102,90 @@ To challenge yourself, draw your topology on a napkin and then use the tools to 
 
 # Fabric
 
+![Fabric App](images/fabric_app.jpg)
 
+The `Fabric` app was designed to make deployment of data center fabrics of all sizes much faster and without errors. It is able to automate the deployment of the fabric components such as IP addresses, VLANs and both the underlay and overlay network protocols.
+
+The `Fabric` app supports highly flexible deployment models, enabling you to tailor the configuration of your data center fabric to suit different architectural needs. The data center can be a single fabric (as we will demonstrate in our playground), or it could be divided up into any number of fabrics which can then be interconnected to form a cohesive managed set of fabrics.
+
+Each element in the topology is able to be assigned any number of labels. The labels are able to be used to filter and select elements to determine how to apply configurations to the element based on their role in the network.
+
+Example Label Selectors:
+- Leaf Node Selector: `eda.nokia.com/role=leaf`
+- Spine Node Selector: `eda.nokia.com/role=spine`
+- Fabric Selector: `eda.network.com/pod=pod1`
+
+System/Loopback Interfaces
+- IPv4 Assignment: IPv4 addresses _must_ be assigned to the primary loopback interface (system or loopback) of each node.
+- IPv6 Assignment: Optionally, IPv6 addresses can also be configured on these interfaces.
+
+TopoLink Interfaces:
+- The `Fabric` app requires the configuration of either IPv4, IPv6 addresses or the use of IPv6 unnumbered on the interfaces selected by the TopoLink label selector under the InterSwitchLinks property, assuring that all connections with the network are addressed.
+
+IP Allocation Pools:
+- IP addresses can be automatically assigned from the specified IP Address allocation pools. Separate pools are commonly used for system interfaces and ISL (inter-switch link) interfaces.
+
+Underlay Protocol:
+- The `Fabric` app currently supports eBGP underlay. ISL (inter-switch links) and ASNs will be configured using defined IP/ASN allocation pools.
+
+Routing Policies:
+- If not defined manually, the `Fabric` app will automatically generate the required `RoutingPolicies`
+
+Overlay Protocol:
+- eBGP: if eBGP is selected, the existing underlay sessions will be reused but with the added address-families to support the overlay.
+- iBGP: if iBGP is selected, `Autonomous System` for the iBGP session _must_ be configured. Additionally, `Route Reflector`, `RR IP Addresses`, `RR Client Nodes` and `RR Nodes` must be configured.
+
+![Fabric Create](images/fabric_create.jpg)
+
+## :rocket: Activity 
+
+Based on the image above:
+1. Click on `Fabrics` 
+2. Click on `Create`
+
+This will open the `Fabric Edit` window.
+
+![Fabric Edit](images/fabric_edit.jpg)
+
+Using the image above as a reference:
+
+1. Instead of scrolling to find where to enter configurations, you can type the name of the element and it will take you right there.
+2. This is an example of having to manually type a specific entry. Be sure to type these carefully as they are free-form.
+
+Filling out the Fabric UI form:
+
+1. Starting at the top, type `workshop-fabric` in the `Name` field
+2. In the `Labels` drop-down, choose `Add` at the top
+3. In the `Add` pop-up, type `eda.nokia.com/pod` for the `Key` and `pod1` for the `Value` and click the `Add` button
+4. In the `Specification` section, use the drop-down menu to select `systemipv4-pool` for the `IPv4 Pool - System IP` option
+5. Do the same for `IPv6 Pool - System IP` but select `systemipv6-pool` instead
+6. In the `Specification | Leafs` section, click `Add a Label Selector` and enter `eda.nokia.com/role=leaf` (as shown in the image above)
+7. In the `Specification | Spines` section, click `Add a Label Selector` and enter `eda.nokia.com/role=spine`
+8. In the `Specification | InterSwitchLinks` section, use the drop-down menu to select `ipv4-pool` for the `IPv4 Pool - InterSwitch Link IP` option
+9. Do the same for `IPv6 Pool - InterSwitch Link IP` but select `ipv6-pool` instead
+10. Click `Add a Label Selector` for the `Link Selector` option and enter `eda.nokia.com/role=interSwitch`
+11. In the `Specification | Underlay Protocol` section, use the drop-down to select `EBGP` in the `Protocol` option
+12. Use the drop-down to select `asn-pool` in the `Autonomous System Pool` option
+13. In the `Specification | Overlay Protocol` section, use the drop-down to select `IBGP` in the `Protocol` option
+14. In the `Specification | Overlay Protocol | BGP` section, type `65500` in the `Autonomous System` option
+14. Type `1.1.1.1` in the `Cluster ID` option
+15. Click `Add a Label Selector` in the `Route Reflector Node Selector` and enter `eda.nokia.com/role=spine`
+16. Click `Add a Label Selector` in the `Route Reflector Client Node Selector` and enter `eda.nokia.com/role=leaf`
+17. Click the `Add To Transaction` button in the lower right corner.
+
+Validating the Fabric configuration:
+
+1. Click on the `Transaction` basket in the upper right corner (it will be blue with a transaction in it)
+2. Click on `Dry Run`
+3. Click on `Diffs`
+4. On the left side, all of the configuration changes can be viewed for each of the elements - take some time to look through the configurations that have been generated from this basic intent.
+5. Once you are properly amazed, click `Cancel`
+6. Click the `X` at the bottom of the `Transactions` window to discard the transaction.
+
+Faster! Better!
+
+
+
+## 🏆 Going Deeper
+
+We used 

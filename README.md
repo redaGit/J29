@@ -9,8 +9,7 @@
 
 ### Overview
 
-### [Topologies](https://github.com/drewelliott/nokia-eda-workshop?tab=readme-ov-file#topologies-1)
-### [Topologies](#topologies-2)
+### [Topologies](#topologies-1)
  - TopoNodes
  - TopoLinks
  - Topologies
@@ -84,3 +83,6 @@ Based on the image above:
 Topologies can be built manually, but it is far more common to generate the topology files using one of the methods described in the [docs.eda.dev](https://docs.eda.dev/user-guide/topologies/#topology-file)
 
 To challenge yourself, draw your topology on a napkin and then use the tools to generate your topology in EDA to match your drawing.
+
+[^ back to top](#topologies)
+---

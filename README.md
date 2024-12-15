@@ -52,4 +52,14 @@ We will be building our fabric and overlay on top of the base topology that is i
 
 # Topologies
 
+The topology is the foundation of the layers of abstraction EDA uses to implement the declared intent of the engineer. It is made up of a number of nodes, interfaces and links. 
 
+The default topology in the playground (and the one we are using) is depicted in this image:
+
+![Playground Topology](images/topology_ss.jpg){: .center}
+
+In EDA, the topology is a tree made up of nodes and links. Each *tier* of the tree can contain multiple resources and relationships between *tiers* is drawn based on the links :tree:
+
+The playground topology when depicted in this abstracted way looks like this:
+
+![Playground Topology Abstraction](images/toponodes_and_topolinks_ss.jpg){: .center}

@@ -73,8 +73,8 @@ You may have noticed that the abstraction image refers to the nodes as TopoNodes
 Based on the image above:
 
 1. Click this dropdown to choose the `eda` namespace
-2. Click Main
-3. Click Topologies
+2. Click `Main`
+3. Click `Topologies`
 4. Click the `i` to open this information screen
 5. Click `leaf1' to be able to see all of the information about the node, take a moment to look at all of the available information about this node.
 

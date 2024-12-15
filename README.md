@@ -56,10 +56,25 @@ The topology is the foundation of the layers of abstraction EDA uses to implemen
 
 The default topology in the playground (and the one we are using) is depicted in this image:
 
-![Playground Topology](images/topology_ss.jpg){: .center}
+![Playground Topology](images/topology_ss.jpg)
 
 In EDA, the topology is a tree made up of nodes and links. Each *tier* of the tree can contain multiple resources and relationships between *tiers* is drawn based on the links :tree:
 
 The playground topology when depicted in this abstracted way looks like this:
 
-![Playground Topology Abstraction](images/toponodes_and_topolinks_ss.jpg){: .center}
+![Playground Topology Abstraction](images/toponodes_and_topolinks_ss.jpg)
+
+You may have noticed that the abstraction image refers to the nodes as TopoNodes and the links as TopoLinks. In EDA, a leaf or spine switch would be a TopoNode and the circuit between the leaf and spine would be a TopoLink.
+
+![EDA UI](images/topology_pane.jpg)
+
+## :rocket: Activity 
+
+Based on the image above:
+
+1. Click this dropdown to choose the `eda` namespace
+2. Click Main
+3. Click Topology
+4. Click the `i` to open this information screen
+5. Click `leaf1' to be able to see all of the information about the node, take a moment to look at all of the available information about this node.
+

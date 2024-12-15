@@ -9,7 +9,7 @@
 
 ### Overview
 
-### [Topologies](#topologies)
+### [Topologies](https://github.com/drewelliott/nokia-eda-workshop?tab=readme-ov-file#topologies-1)
  - TopoNodes
  - TopoLinks
  - Topologies
@@ -50,7 +50,7 @@ The workshop will primarily focus on getting familiar with the key concepts in E
 
 We will be building our fabric and overlay on top of the base topology that is instantiated when you start the Try EDA! Playground, but you are encouraged to get as creative as your computer resources will allow 💻
 
-# <a name="topologies">Topologies</a>
+# Topologies
 
 The topology is the foundation of the layers of abstraction EDA uses to implement the declared intent of the engineer. It is made up of a number of nodes, interfaces and links. 
 

@@ -23,7 +23,7 @@
  - Further Reading [docs.eda.dev](https://docs.eda.dev/apps/fabric/)
 > 🔑 Key Takeaway: The declarative, intent-based approach provided by EDA allows an engineer to validate and implement an entire fabric in less time than it takes an engineer to log into a single switch.
 
-### Queries
+### [Queries](#queries-1)
  - EQL 
  - Natural Language
  - edactl
@@ -202,4 +202,11 @@ We used a very basic set of intents to create this fabric. Although it is fully 
 Read through the fabric docs at [docs.eda.dev](https://docs.eda.dev/apps/fabric/) and create some of your own pools and labels and apply them to a more customized fabric configuration.
 
 [^ back to top](#fabric)
+---
+
+# Queries
+
+
+
+[^ back to top](#queries)
 ---

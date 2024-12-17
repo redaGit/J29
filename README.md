@@ -256,7 +256,7 @@ This shows you a _real-time_ aggregate traffic counter on the entire network! Th
 
 EQL is extremely flexible and can do far more than what we have tried so far. Take a look at the [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/queries.html) for more details.
 
-In addition to the EDA GUI access, there are other text-based methods available for performing queries: [e9s](`edactl` and `e9s`) and [edactl](https://docs.eda.dev/user-guide/using-the-clis/#edactl)
+In addition to the EDA GUI access, there are other text-based methods available for performing queries: [e9s](https://docs.eda.dev/user-guide/using-the-clis/#e9s) and [edactl](https://docs.eda.dev/user-guide/using-the-clis/#edactl)
 
 Take some time to give those two tools a try. Try creating some more advanced and interesting queries of your own.
 

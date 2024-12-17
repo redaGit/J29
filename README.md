@@ -37,7 +37,7 @@
  - Further Reading [docs.eda.com](https://docs.eda.dev/apps/notifier/)
 > 🔑 Key Takeaway: Extending the functionality of EDA is just a click away with the App Store. Integrating ChatOps into your operations workflow is just that simple.
 
-### [Custom Dashboard](#custom_dashboard-1)
+### [Custom Dashboard](#custom-dashboard-1)
  - EQL
  - Further Reading [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/dashboard-designer.html)
 > 🔑 Key Takeaway: Creating custom dashboards in EDA allows you to tailor the data to display information important to your organization.
@@ -325,5 +325,5 @@ Each of the `dashlets` are described in detail in the [documentation.nokia.com](
 
 Create your own custom dashboard by following the steps laid out in the [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/dashboard-designer.html#designing-a-dashboard)
 
-[^ back to top](#custom_dashboard)
+[^ back to top](#custom-dashboard)
 ---

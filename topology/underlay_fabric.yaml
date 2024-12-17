@@ -1,4 +1,4 @@
-
+---
 apiVersion: fabrics.eda.nokia.com/v1alpha1
 kind: Fabric
 metadata:
@@ -31,10 +31,8 @@ spec:
     bgp:
       autonomousSystem: 65500
       clusterID: 1.1.1.1
-      exportPolicy:
-        - export-all
-      importPolicy:
-        - import-all
+      exportPolicy: []
+      importPolicy: []
       rrClientNodeSelector:
         - eda.nokia.com/role=leaf
       rrNodeSelector:
@@ -63,12 +61,10 @@ spec:
       minEchoReceiveInterval: 1000000
       requiredMinReceive: 1000000
     bgp:
-      exportPolicy:
-        - export-to-underlay
-      importPolicy:
-        - import-from-underlay
+      exportPolicy: []
+      importPolicy: []
       keychain: ''
-      asnPool: ''
+      asnPool: asn-pool
       timers:
         holdTime: null
         keepAlive: null

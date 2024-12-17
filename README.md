@@ -314,3 +314,16 @@ Our `Notifier` is currently set to send every notification. Refer to the [docs.e
 
 [^ back to top](#chatops)
 ---
+
+# Custom Dashboard
+
+The ability to create custom dashboards allows an engineer to see a visual representation of significant information in just a glance.
+
+Each of the `dashlets` are described in detail in the [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/dashboard-designer.html)
+
+## 🏆 Going Deeper
+
+Create your own custom dashboard by following the steps laid out in the [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/dashboard-designer.html#designing-a-dashboard)
+
+[^ back to top](#custom_dashboard)
+---

@@ -75,10 +75,10 @@ You may have noticed that the abstraction image refers to the nodes as TopoNodes
 
 Based on the image above:
 
-1. Click this dropdown to choose the `eda` namespace
-2. Click `Main`
-3. Click `Topologies`
-4. Click the `i` to open this information screen
+1. This drop-down allows you to select the `Namespace`, this topology is in the `eda` Namespace
+2. The topology is found in the `Main` screen
+3. `Topologies` are where we can find defined topologies 
+4. The `i` opens the `Information` screen.
 5. Click `leaf1` to be able to see all of the information about the node, take a moment to look at all of the available information about this node.
 
 Next, look through the options on the left side of the screen to find `Nodes` in the `Targets` subsection.

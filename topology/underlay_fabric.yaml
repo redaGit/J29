@@ -1,4 +1,4 @@
----
+
 apiVersion: fabrics.eda.nokia.com/v1alpha1
 kind: Fabric
 metadata:
@@ -87,3 +87,4 @@ spec:
     systemPoolIPV4: ''
     systemPoolIPV6: ''
     asnPool: ''
+

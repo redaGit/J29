@@ -77,7 +77,7 @@ Based on the image above:
 
 1. This drop-down allows you to select the `Namespace`, this topology is in the `eda` Namespace
 2. The topology is found in the `Main` screen
-3. `Topologies` are where we can find defined topologies 
+3. `Topologies` are where we can find defined topologies (note that you will need to double-click the topology to open the visualization)
 4. The `i` opens the `Information` screen.
 5. Click `leaf1` to be able to see all of the information about the node, take a moment to look at all of the available information about this node.
 

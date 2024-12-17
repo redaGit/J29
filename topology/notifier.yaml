@@ -1,0 +1,25 @@
+---
+apiVersion: notifiers.eda.nokia.com/v1
+kind: Notifier
+metadata:
+  name: alarms-to-discord
+  labels: {}
+  annotations: {}
+spec:
+  description: Notifier for all alarms to Discord
+  enabled: true
+  providers:
+    - discord
+  sources:
+    alarms:
+      include:
+        - '*'
+      namespaces: []
+      exclude: []
+    query:
+      table: ''
+      where: ''
+      fields: []
+      title: ''
+      template: ''
+      color: ''

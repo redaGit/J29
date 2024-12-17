@@ -1,0 +1,86 @@
+---
+apiVersion: fabrics.eda.nokia.com/v1alpha1
+kind: Fabric
+metadata:
+  labels:
+    eda.nokia.com/role: fabric
+  name: fabric-underlay
+  namespace: eda
+  annotations: {}
+spec:
+  interSwitchLinks:
+    linkSelector:
+      - eda.nokia.com/role=interSwitch
+    poolIPV4: isl-ipv4-pool
+    poolIPV6: isl-ipv6-pool
+    vlanID: null
+    unnumbered: ''
+  leafs:
+    asnPool: asn-pool
+    leafNodeSelector:
+      - eda.nokia.com/role=leaf
+    systemPoolIPV4: systemipv4-pool
+    systemPoolIPV6: systemipv6-pool
+  overlayProtocol:
+    bfd:
+      desiredMinTransmitInt: 1000000
+      detectionMultiplier: 3
+      enabled: false
+      minEchoReceiveInterval: 1000000
+      requiredMinReceive: 1000000
+    bgp:
+      autonomousSystem: 65500
+      clusterID: 1.1.1.1
+      exportPolicy: []
+      importPolicy: []
+      rrClientNodeSelector:
+        - eda.nokia.com/role=leaf
+      rrNodeSelector:
+        - eda.nokia.com/role=spine
+      keychain: ''
+      rrIPAddresses: []
+      timers:
+        holdTime: null
+        keepAlive: null
+        connectRetry: null
+        minimumAdvertisementInterval: null
+    protocol: IBGP
+  spines:
+    asnPool: asn-pool
+    spineNodeSelector:
+      - eda.nokia.com/role=spine
+    systemPoolIPV4: systemipv4-pool
+    systemPoolIPV6: systemipv6-pool
+  systemPoolIPV4: systemipv4-pool
+  systemPoolIPV6: systemipv6-pool
+  underlayProtocol:
+    bfd:
+      desiredMinTransmitInt: 1000000
+      detectionMultiplier: 3
+      enabled: false
+      minEchoReceiveInterval: 1000000
+      requiredMinReceive: 1000000
+    bgp:
+      exportPolicy: []
+      importPolicy: []
+      keychain: ''
+      asnPool: asn-pool
+      timers:
+        holdTime: null
+        keepAlive: null
+        connectRetry: null
+        minimumAdvertisementInterval: null
+    protocol:
+      - EBGP
+  fabricSelector: []
+  superSpines:
+    superSpineNodeSelector: []
+    systemPoolIPV4: ''
+    systemPoolIPV6: ''
+    asnPool: ''
+  borderLeafs:
+    borderLeafNodeSelector: []
+    systemPoolIPV4: ''
+    systemPoolIPV6: ''
+    asnPool: ''
+

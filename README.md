@@ -31,6 +31,12 @@
  - Further Reading [docs.eda.dev](https://docs.eda.dev/user-guide/queries/) and [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/queries.html)
 > 🔑 Key Takeaway: The EQL enables real-time querying and parsing of the entire state of managed devices, supplying data for visualization and streaming to external applications. This gives engineers a unified view of the managed network, treating it as a single cohesive resource.
 
+### [ChatOps](#chatops-1)
+ - App Store
+ - Notifier
+ - Further Reading [docs.eda.com](https://docs.eda.dev/apps/notifier/)
+> 🔑 Key Takeaway: Extending the functionality of EDA is just a click away with the App Store. Integrating ChatOps into your operations workflow is just that simple.
+
 ### Day 1+
  - Digital Twin
  - Custom Dashboards [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/dashboard-designer.html)
@@ -207,6 +213,39 @@ Read through the fabric docs at [docs.eda.dev](https://docs.eda.dev/apps/fabric/
 # Queries
 
 
+EDA supports queries using a syntax that is collectively referred to as the EDA Query Language, or EQL.
+
+
+![Query](images/query.jpg)
+
+## :rocket: Activity 
+
+Based on the above image:
+
+1. The `Queries` can be found in the `Tools` subsection.
+2. The drop-down menu allows you to select either `EQL Query` or `Natural Language`
+
+---
+
+Natural Language Queries
+
+1. Start by selecting `Natural Language` from the `Query Builder` drop-down menu.
+2. In the query text box, type `show me all ethernet-1/1 interfaces` and click the `Query` button.
+3. You will see the details for `ethernet-1/1` on each of the nodes appear in the results window.
+4. Notice that the EQL representation of the query you just performed (`.namespace.node.srl.interface where (name = "ethernet-1/1")`) is displayed directly below the query text box
+5. Now, add `on leaf1` to the end of your query string so that it says `show me all ethernet-1/1 on leaf1` and click the `Query` button
+6. Notice that the EQL representation is update and now you only see the leaf1 node in the results window.
+
+
+
+## 🏆 Going Deeper
 
 [^ back to top](#queries)
+---
+
+# ChatOps
+
+
+
+[^ back to top](#chatops)
 ---

@@ -37,15 +37,14 @@
  - Further Reading [docs.eda.com](https://docs.eda.dev/apps/notifier/)
 > 🔑 Key Takeaway: Extending the functionality of EDA is just a click away with the App Store. Integrating ChatOps into your operations workflow is just that simple.
 
-### Day 1+
- - Digital Twin
- - Custom Dashboards [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/dashboard-designer.html)
- - Deviations & Remediation
- - Revision Control (Restore/Revert)
+### [Custom Dashboard](#custom_dashboard-1)
+ - EQL
+ - Further Reading [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/dashboard-designer.html)
+> 🔑 Key Takeaway: Creating custom dashboards in EDA allows you to tailor the data to display information important to your organization.
 
 ### Challenge Yourself
- - ZTP
- - Create Custom Dashboard
+ - Revision Control (Restore/Revert)
+ - Deviations & Remediation
 
 ---
 
@@ -265,6 +264,2071 @@ Take some time to give those two tools a try. Try creating some more advanced an
 
 # ChatOps
 
+Many teams rely on messaging applications such as [discord](https://discord.com) or [slack](https://slack.com) for critical communications and notifications.
+
+The `Notifier` app, available in the `App Store` allows for easy integration.
+
+![App Store](images/app_store.jpg)
+
+## :rocket: Activity 
+
+Based on the image above:
+
+1. The `App Store` is located in the `System Administration` view
+2. The `App Store` is labeled as `Store` in the `App Management` subsection
+3. The `Notifier` app is an `Integrations` category
+4. The `Notifier` app provides the functionality for ChatOps integration
+
+---
+
+App Install
+
+![App Install](images/app_install.jpg)
+
+1. Simply click the `Install 2.0` button to install the app
+
+---
+
+Notifier Configuration
+
+![Notifier](images/notifier.jpg)
+
+1. The `Notifier` app now shows up in the `Main` view
+2. Click on `Provider` to enter the `Provider` window
+3. Click the `Create` button in the upper right
+4. Copy and paste this [Provider YAML](https://github.com/drewelliott/nokia-eda-workshop/blob/main/topology/provider.yaml) into the YAML box just as before in the fabric creation section
+5. Click the `Add To Transaction` button
+6. Click the `Notifier` button on the left side to enter the `Notifier` window
+7. Click the `Create` button in the upper right
+8. Copy and paste this [Notifier YAML](https://github.com/drewelliott/nokia-eda-workshop/blob/main/topology/notifier.yaml) into the YAML box just as before
+9. Click the `Add To Transaction` button
+10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)10. Click the `Transaction Basket` and click `Commit` 
+   
+
+
+
+
+
+
+To see the ChatOps integration, join the [EDA Workshop Discord](https://discord.gg/XsVv2gVv)
 
 
 [^ back to top](#chatops)

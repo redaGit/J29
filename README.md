@@ -234,7 +234,7 @@ Natural Language Queries
 3. You will see the details for `ethernet-1/1` on each of the nodes appear in the results window.
 4. Notice that the EQL representation of the query you just performed (`.namespace.node.srl.interface where (name = "ethernet-1/1")`) is displayed directly below the query text box
 5. Now, add `on leaf1` to the end of your query string so that it says `show me all ethernet-1/1 on leaf1` and click the `Query` button
-6. Notice that the EQL representation is update and now you only see the leaf1 node in the results window.
+6. Notice that the EQL representation is updated and now you only see the leaf1 node in the results window.
 
 EQL Queries
 

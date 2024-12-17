@@ -228,7 +228,7 @@ Based on the above image:
 ---
 
 Natural Language Queries
-
+> Prerequisite: API key configured in the `.spec.llm` context of your `EngineConfig`. Refer to the [install guide](https://docs.eda.dev/user-guide/installation/customize-install/) for more details.
 1. Start by selecting `Natural Language` from the `Query Builder` drop-down menu.
 2. In the query text box, type `show me all ethernet-1/1 interfaces` and click the `Query` button.
 3. You will see the details for `ethernet-1/1` on each of the nodes appear in the results window.
@@ -236,9 +236,29 @@ Natural Language Queries
 5. Now, add `on leaf1` to the end of your query string so that it says `show me all ethernet-1/1 on leaf1` and click the `Query` button
 6. Notice that the EQL representation is update and now you only see the leaf1 node in the results window.
 
+EQL Queries
+
+1. Start by selecting `EQL Query` from the `Query Builder` drop-down menu.
+2. In the query text box, type `.namespace.` and notice that a contextual list of options appears below.
+3. Choose `.namespace.node.srl.network-instance.interface` and click the `Query` button.
+4. In the results window, you will see every `interface` on every `node` in every `network-instance` in the topology.
+5. Filter your results by adding `where (.namespace.node.name = "leaf1")` to the end of the query string so that it now shows `.namespace.node.srl.network-instance.interface where ( .namespace.node.name = "leaf1")` and click the `Query` button
+6. In the results window, you only see `leaf1` interfaces now.
+
+Thinking of the entire topology as a single resource that can be queried in real-time should be exciting. Troubleshooting just became that much easier and faster.
+
+7. In the query text box, enter `.namespace.node.srl.interface.traffic-rate fields [sum(in-bps) as "In", sum(out-bps) as "Out"]` and click the `Query` button.
+
+This shows you a _real-time_ aggregate traffic counter on the entire network! This exemplifies the value of using streaming telemetry!
 
 
 ## 🏆 Going Deeper
+
+EQL is extremely flexible and can do far more than what we have tried so far. Take a look at the [documentation.nokia.com](https://documentation.nokia.com/eda/24-12/books/user/queries.html) for more details.
+
+In addition to the EDA GUI access, there are other text-based methods available for performing queries: [e9s](`edactl` and `e9s`) and [edactl](https://docs.eda.dev/user-guide/using-the-clis/#edactl)
+
+Take some time to give those two tools a try. Try creating some more advanced and interesting queries of your own.
 
 [^ back to top](#queries)
 ---

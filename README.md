@@ -10,6 +10,10 @@
 ### Installation - Try-EDA!  
 Follow [EDA Docs page](https://docs.eda.dev/getting-started/try-eda/) to install EDA. 
 
+NOTE: run the below command
+
+```sudo cp playground/tools/kubectl-v1.31.1 /usr/local/bin/kubectl```
+
 ### Overview
 
 ### [Topologies](#topologies-1)

@@ -7,6 +7,9 @@
 
 ## Topics:
 
+### Installation - Try-EDA!  
+Follow [EDA Docs page](https://docs.eda.dev/getting-started/try-eda/) to install EDA. 
+
 ### Overview
 
 ### [Topologies](#topologies-1)
